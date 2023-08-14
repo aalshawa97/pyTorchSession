@@ -6,7 +6,7 @@ from transformers import pipeline
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 #Analyze sentiment of a text
-text = "I love using Hugging Face's Transformers library!"
+text = input("Could you please write some text for sentiment analysis?")
 sentiment = sentiment_analyzer(text)
 
 
